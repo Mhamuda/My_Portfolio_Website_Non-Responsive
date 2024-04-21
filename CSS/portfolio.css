@@ -1,0 +1,39 @@
+/*-----Services start-----*/
+.services-header {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+.services {
+    min-height: 75vh;
+    padding: 120px 12% 50px; /* Adjusted padding */
+    text-align: center; /* Center-align content */
+    background-color: lightcyan;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center; /* Center-align grid items */
+}
+
+.service {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+/*-----Services end-----*/
