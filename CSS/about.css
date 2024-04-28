@@ -6,15 +6,15 @@
     align-items: center;
     padding: 10% 8%;
     gap: 5em;
-    background: lavender; 
+    background: lightcyan; 
     margin-top: 80px; 
-    max-height: 55vh;
+    max-height: 45vh;
+    min-height: 38vh;
 }
 
 .about-img img {
     width: 170px;
     border-radius: 15%; 
-    /* box-shadow: 0 0 25px rgba(255, 69, 0, 0.8), 0 0 50px rgba(255, 69, 0, 0.5); Updated box-shadow */
     box-shadow: 0 0 25px rgba(166, 113, 241, 0.8), 0 0 50px rgba(255, 69, 0, 0.5);
 }
 
@@ -52,8 +52,6 @@
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
-    /* float: right; */
-
 }
 .lets-talk-btn:hover{
     background-color: lightcyan;
@@ -69,10 +67,12 @@
     margin-bottom: 20px; 
 }
 .educations {
-    min-height: 50vh;
+    min-height: 40vh;
     padding: 40px 9% 10px; 
     text-align: center; 
     background-color: lightcyan;
+    margin-bottom: 0px;
+    max-height: fit-content;
 }
 
 .education-grid {
@@ -103,16 +103,17 @@
 
 /* Experience Section */
 .experience-header {
+    max-height: fit-content;
     text-align: center;
     color: black;
     font-size: 36px;
     margin-bottom: 20px; 
 }
 .experiences {
-    min-height: 50vh;
+    min-height: 53vh;
     padding: 40px 9% 10px; 
     text-align: center; 
-    background-color: lightgoldenrodyellow;
+    background-color: lightcyan;
 }
 
 .experience-grid {
@@ -140,6 +141,63 @@
     color: black;
     text-align: left;
 }
+
+/* Skill section */
+.skill-header {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px; 
+    /* header without any gap in top of the section  */
+    margin-top: 0px;
+
+
+}
+
+.skills {
+    min-height: 38vh;
+    padding: 40px 9% 10px; 
+    text-align: center; 
+    background-color: lightcyan;
+
+} 
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+    width: 80px;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.box h3 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
 
 
 /*-----About end-----*/
